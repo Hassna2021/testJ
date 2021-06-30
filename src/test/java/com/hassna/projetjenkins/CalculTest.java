@@ -37,8 +37,17 @@ public class CalculTest {
     public void tearDown() {
     }
 
+    /**
+     * Test of add method, of class Calcul.
+     */
     @Test
-    public void testSomeMethod() {
+    public void testAdd() {
+        System.out.println("add");
+        int a = 0;
+        int b = 0;
+        int expResult = 0;
+        int result = Calcul.add(a, b);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         
     }
